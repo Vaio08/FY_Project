@@ -1,0 +1,7 @@
+Applications that are needed:
+Controller, Xampp v 3.3.0, Notepad++ and the system file  which has to be put in to the xampp/htdoc folder.
+For database:
+First create aa database file in phpMyAdmin
+In the Insurance folder open Windows Power Shell give the following command:
+•	php artisan migrate (This will automatically create the database)
+•	php artisan db:seed (This will connect with the database with the system)
